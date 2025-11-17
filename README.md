@@ -87,7 +87,3 @@ MIT License - see LICENSE file for details
 
 If you encounter any issues or have suggestions,
 please [open an issue](https://github.com/vendi-advertising/basecamp-me/issues) on GitHub.
-
-## Acknowledgments
-
-Created to solve the common problem of scanning large Basecamp todo lists with mixed assignments across team members.
