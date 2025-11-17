@@ -17,7 +17,7 @@ jobs:
 
       - name: Create extension package
         run: |
-          zip -r basecamp-highlighter.zip manifest.json content.js
+          zip -r basecamp-highlighter.zip manifest.json content.js icons/
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
