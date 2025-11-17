@@ -1,0 +1,26 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Create extension package
+        run: |
+          zip -r basecamp-highlighter.zip manifest.json content.js
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: basecamp-highlighter.zip
+          generate_release_notes: true

@@ -42,20 +42,6 @@ long lists and focus on your responsibilities.
 
 Note: Temporary add-ons are removed when you close Firefox.
 
-## How It Works
-
-Once installed, the extension automatically activates when you visit Basecamp todoset pages (
-`https://3.basecamp.com/*/buckets/*/todosets/*`).
-
-The extension:
-
-1. Identifies your Basecamp username from your profile avatar
-2. Scans all visible todos on the page
-3. Highlights todos assigned to you with a subtle background color
-4. Updates automatically when you navigate between pages
-
-The highlight color adapts to your current Basecamp theme, ensuring readability in both light and dark modes.
-
 ## Privacy
 
 This extension runs entirely in your browser and does not:
