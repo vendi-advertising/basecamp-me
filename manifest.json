@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Basecamp Todo Highlighter",
-  "version": "1.0",
+  "version": "1.0.2",
   "description": "Highlights your assigned todos in Basecamp projects",
   "icons": {
     "48": "icons/icon48.png",
