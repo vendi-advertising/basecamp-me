@@ -14,33 +14,9 @@ long lists and focus on your responsibilities.
 
 ## Installation
 
-### Chrome
-
-#### From Chrome Web Store (Recommended)
-
-*Coming soon - extension is currently under review*
-
-#### Manual Installation
-
-1. Download the latest release from the [Releases page](https://github.com/vendi-advertising/basecamp-me/releases)
-2. Unzip the file to a folder on your computer
-3. Open Chrome and navigate to `chrome://extensions/`
-4. Enable "Developer mode" (toggle in the top-right corner)
-5. Click "Load unpacked"
-6. Select the unzipped folder
-7. The extension is now installed and active
-
-### Firefox
-
-#### Temporary Installation (for testing)
-
-1. Download the latest release from the [Releases page](https://github.com/vendi-advertising/basecamp-me/releases)
-2. Open Firefox and navigate to `about:debugging`
-3. Click "This Firefox"
-4. Click "Load Temporary Add-on"
-5. Select the `manifest.json` file from the unzipped folder
-
-Note: Temporary add-ons are removed when you close Firefox.
+Download the extension from the
+[Add-ons for Firefox](https://addons.mozilla.org/en-US/firefox/addon/basecamp-todo-highlighter/) or
+[Chrome Web Store](https://chromewebstore.google.com/detail/basecamp-todo-highlighter/jnmoeckmedpikpafhblphfngpbfodfog).
 
 ## Privacy
 
