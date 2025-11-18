@@ -57,3 +57,38 @@ history.replaceState = function() {
 window.addEventListener('popstate', () => {
     setTimeout(highlightMyTodos, 500);
 });
+
+// Watch for changes to all todo list containers
+const observedContainers = new WeakSet();
+
+const observeTodoLists = () => {
+    const todoContainers = document.querySelectorAll('.todos');
+
+    if (todoContainers.length === 0) {
+        setTimeout(observeTodoLists, 1000);
+        return;
+    }
+
+    const todoObserver = new MutationObserver((mutations) => {
+        const hasNewTodos = mutations.some(mutation => {
+            return mutation.type === 'childList' && mutation.addedNodes.length > 0;
+        });
+
+        if (hasNewTodos) {
+            highlightMyTodos();
+        }
+    });
+
+    todoContainers.forEach(container => {
+        if (!observedContainers.has(container)) {
+            todoObserver.observe(container, {
+                childList: true,
+                subtree: false
+            });
+            observedContainers.add(container);
+        }
+    });
+};
+
+// Start observing after initial highlight
+setTimeout(observeTodoLists, 1000);
