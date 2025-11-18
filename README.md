@@ -29,28 +29,6 @@ This extension runs entirely in your browser and does not:
 
 It simply reads your Basecamp username from the page and applies CSS highlighting to matching todos.
 
-## Development
-
-### Building from Source
-
-```bash
-# Clone the repository
-git clone https://github.com/vendi-advertising/basecamp-me.git
-cd basecamp-me
-
-# Create a ZIP package
-zip -r basecamp-highlighter.zip manifest.json content.js
-```
-
-### File Structure
-
-```
-basecamp-me/
-├── manifest.json    # Extension configuration
-├── content.js       # Main highlighting logic
-└── README.md        # This file
-```
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
