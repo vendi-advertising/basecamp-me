@@ -18,7 +18,7 @@ long lists and focus on your responsibilities.
 
 #### From Chrome Web Store (Recommended)
 
-*Coming soon - extension is currently under review*
+[Install from Chrome Web Store](https://chromewebstore.google.com/detail/basecamp-todo-highlighter/jnmoeckmedpikpafhblphfngpbfodfog)
 
 #### Manual Installation
 
@@ -31,6 +31,10 @@ long lists and focus on your responsibilities.
 7. The extension is now installed and active
 
 ### Firefox
+
+#### From Firefox Add-ons (Recommended)
+
+*Coming soon - extension is currently under review*
 
 #### Temporary Installation (for testing)
 
